@@ -1,0 +1,498 @@
+body
+{
+    font-family: Myriad Pro;
+    margin: 0;
+    padding: 0;
+}
+
+h1
+{
+    padding-top: 110px;
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+
+hr
+{
+    margin-top: -15px;
+    height: 3px;
+    width: 100px;
+    border: none;
+}
+
+p
+{
+    font-size: 16px;
+    text-align: center;
+}
+
+.container
+{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+header
+{
+    padding: 0; 
+    background: #87509c;
+    margin: 0;
+}
+
+.navbar
+{
+    height: 152px;  
+}
+
+.navbar img
+{
+    margin-top: 50px;
+    margin-left: 60px;
+    float: left;
+}
+
+.links
+{
+    margin-top: 60px;
+    margin-right: 90px;
+    float: right;
+}
+
+.links a
+{
+    padding: 10px;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.welcome
+{
+    height: 444px;
+}
+
+.welcome p
+{
+    
+    margin-top: 95px;
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
+
+.welcome button
+{
+    width: 20%;
+    height: 70px;
+    margin-top: 65px;
+    text-transform: uppercase;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    background: #eb7d4b;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 3px 0 #c86a40;
+}
+
+.services
+{   
+    margin-top: -22px;
+    background: #17c2a4;
+    height: 745px;
+}
+
+.services h1
+{   
+    color: white;
+}
+
+.services hr
+{
+    background-color: #14a58c;
+}
+
+.services p
+{
+    color: white;
+}
+
+.services .list
+{
+    width: 240px;
+    padding: 10px; 
+    display: inline-block;
+}
+
+.services .list img
+{
+    position: relative;
+    top: 40px;
+    margin: auto;
+    display: table-cell;
+    height: 120px;
+}
+
+.services .list h1
+{
+    padding-top: 60px;
+    letter-spacing: 0;  
+    font-weight: 600;
+    
+}
+
+.team
+{   
+    margin-top: -22px;
+    background: #e7f1f8;
+    height: 914px;
+      
+}
+
+.team h1
+{   
+    color: #3c4761;
+}
+
+.team hr
+{
+    background-color: #c8d9e5;
+}
+
+.team p
+{
+    color: #3c4761;
+}
+
+.team .list
+{
+    width: 240px;
+    padding: 10px; 
+    display: inline-block;
+}
+
+.team .list img
+{
+    position: relative;
+    top: 40px;
+    margin: auto;
+    display: table-cell;
+    height: 200px;
+}
+
+.team .list h1
+{
+    padding-top: 60px;
+    letter-spacing: 0;  
+    font-weight: 600;
+    font-size: 24px;    
+}
+
+.team .list h2
+{
+    color: #30bae7;
+    font-size: 16px;
+    text-align: center;
+    margin-top: -12px;
+    
+}
+
+.team .list .icons img
+{
+    height: 32px;
+    display: inline-block;
+    margin-top: -15px;
+}
+
+.skills
+{
+    margin-top: -22px;
+    background: #ffffff;
+    height: 655px;
+      
+}
+
+.skills h1
+{   
+    color: #3c4761;
+}
+
+.skills hr
+{
+    background-color: #dfe8ed;
+}
+
+.skills p
+{
+    color: #3c4761;
+}
+
+.skills .list
+{
+    width: 240px;
+    padding: 10px;
+    display: inline-block;
+}
+
+.skills .list img
+{
+    position: relative;
+    top: 40px;
+    margin: auto;
+    display: table-cell;
+    height: 160px;
+}
+
+.skills .list h1
+{
+    padding-top: 50px;
+    letter-spacing: 0;  
+    font-weight: 600;
+    font-size: 24px;    
+}
+
+.portfolio
+{
+    background: #ffdd99;
+    height: 1423px;
+    margin-top: -22px;
+}
+
+.portfolio h1
+{   
+    color: #393939;
+}
+
+.portfolio hr
+{
+    background-color: #e5c37f;
+}
+
+.portfolio p
+{
+    color: #393939;
+}
+
+.portfolio .tabs button
+{
+    width: 8%;
+    height: 40px;
+    padding: 0;
+    margin-left: 5px;
+    margin-top: 25px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #393939;
+    font-size: 17px;
+    font-weight: bold;
+    background: #ebc985;
+    border: none; 
+    border-radius: 5px;
+    box-shadow: none;
+    display: inline-block;
+}
+
+.portfolio .list
+{
+    width: 500px;
+    padding: 10px;
+    display: inline-block;
+}
+
+.portfolio .list img
+{
+    position: relative;
+    top: 40px;
+    margin: auto;
+    display: table-cell;
+    width: 500px;
+    padding: 20px;
+}
+
+.portfolio .list h1
+{
+    padding-top: 50px;
+    letter-spacing: 0;  
+    font-weight: 600;
+    font-size: 18px;    
+}
+
+.portfolio button
+{
+    width: 25%;
+    height: 70px;
+    margin-top: 65px;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    background: #17c2a4;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 3px 0 #14a58c;
+}
+
+.testimonials
+{
+    background: #d74680;
+    height: 895px; 
+    margin-top: -22px;
+}
+
+.testimonials h1
+{   
+    color: #fff;
+}
+
+.testimonials hr
+{
+    background-color: #b73c6d;
+}
+
+.testimonials p
+{
+    color: #fff;
+}
+
+.testimonials .list
+{
+    position: relative;
+    width: 425px;
+    height: 200px;
+    padding: 30px;
+    display: inline-block;
+    margin: 40px 20px 0 ;
+}
+
+.testimonials .list img
+{
+    height: 95px;
+    position: absolute;
+    left: 0px;
+    top: 0px;    
+}
+
+.testimonials .list .text
+{
+    position: absolute;
+    left: 120px;
+    top: 0px;
+    text-align: left;
+}
+
+.testimonials .list .text p
+{
+    margin: auto;
+    text-align: left;
+    font-style: italic;
+    font-size: 21px;
+}
+
+.testimonials .list .text h1
+{
+    letter-spacing: 0;  
+    font-weight: 600;
+    font-size: 24px; 
+    margin: auto;
+    text-align: left;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.testimonials .list .text h2
+{
+    letter-spacing: 0;  
+    font-weight: 600;
+    font-size: 18px; 
+    color: #ffdd99;
+    margin: auto;
+    text-align: left;
+}
+
+.touch
+{   
+    background: #3c5499;
+    height: 820px;    
+    margin-top: -22px;
+}
+
+.touch h1
+{   
+    color: #fff;
+}
+
+.touch hr
+{
+    background-color: #273a71;
+}
+
+.touch p
+{
+    color: #fff;
+}
+
+.touch input[type=text]
+{
+    background-color:#273a71 ;
+    border: none;
+    border-radius: 5px;
+    width: 426px;
+    height: 60px;
+    margin: 35px 17px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.touch textarea
+{
+    background-color:#273a71 ;
+    border: none;
+    border-radius: 5px;
+    display: block;
+    margin: auto;
+    width: 890px;
+    height: 200px;    
+}
+
+.touch input[type=button]
+{
+    width: 25%;
+    height: 70px;
+    margin-top: 65px;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    background: #30bae7;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 3px 0 #299ec5;
+}
+
+.footer
+{
+    background: #344b8e;
+    height: 110px;
+}
+
+.footer .links
+{
+    float: none;
+    margin: 0;
+    padding: 4%;
+}
+
+*::-webkit-input-placeholder{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Myriad Pro;
+    padding: 20px 20px;
+}

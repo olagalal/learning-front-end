@@ -1,0 +1,357 @@
+body {
+    font-family: "Roboto";
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    padding-top: 60px;
+    padding-bottom: 30px;
+    color: #566366;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+h3 {
+    color: #566366;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+
+h4 {
+    color: #566366;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+p {
+    color: #919191;
+    font-size: 18px;
+}
+
+button {
+    margin-top: 25px;
+    padding: 20px;
+    background: none;
+    font-size: 20px;
+    color: white;
+    border-color: white;
+    border-width: 2px;
+    border-style: solid;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.slider {
+    background-image: url(img/img.png);
+    background-position: -250px;
+    height: 1000px;
+    width: 100%;
+}
+
+.slider .centre {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 450px;
+}
+
+.slider h1 {
+    margin: 0;
+    color: white;
+    padding-top: 480px;
+    padding: 5px;
+    text-transform: uppercase;
+}
+
+.slider hr {
+    border: 0;
+    background: white;
+    height: 2px;
+    width: 500px;
+    padding: 0;
+}
+
+.slider img {
+    float: right;
+    margin-right: 10%;
+    margin-top: 15%;
+}
+
+.navbar {
+    background-color: #252e30;
+    height: 70px;
+}
+
+.navbar img {
+    float: left;
+    padding: 12px;
+}
+
+.navbar .links {
+    float: right;
+    padding: 20px;
+}
+
+.navbar .links a {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding-left: 20px;
+}
+
+.navbar .links a:hover {
+    color: #2ecc71;
+}
+
+.aboutme .top {
+    height: 345px;
+    background-color: white;
+}
+
+.aboutme .top .text {
+    display: inline-block;
+    width: 240px;
+    height: 345px;
+    padding: 0 20px;
+    text-align: left;
+}
+
+.aboutme .bottom {
+    margin-top: -23px;
+    height: 750px;
+    background-color: #f2f2f1;
+}
+
+.aboutme .bottom img {
+    width: 610px;
+    height: 750px;
+    float: left;
+}
+
+.aboutme .bottom .title {
+    margin-left: 630px;
+    padding: 0 30px;
+}
+
+.aboutme .bottom .area {
+    display: inline-block;
+    position: relative;
+    float: left;
+    width: 300px;
+    height: 150px;
+    margin-top: 40px;
+    margin-left: 50px;
+}
+
+.aboutme .bottom .area img {
+    margin-top: 10px;
+    width: auto;
+    height: 41px;
+}
+
+.aboutme .bottom .area .text2 {
+    position: absolute;
+    left: 60px;
+}
+
+.aboutme .bottom .area .text2 h3 {
+    padding: 0;
+    margin: 0;
+}
+
+.skills {
+    margin-top: -23px;
+    background-color: white;
+    height: 615px;
+    margin: auto;
+}
+
+.skills .left {
+    float: left;
+    text-align: left;
+    width: 45%;
+    padding: 15px;
+}
+
+.skills .left button {
+    color: #2ecc71;
+    border-color: #2ecc71;
+}
+
+#start{
+    margin-top: 80px;
+}
+
+.resume .top {
+    background-color: #f2f2f1;
+    height: 420px;
+}
+
+.resume button {
+    color: #2ecc71;
+    border-color: #2ecc71;   
+}
+
+.resume .bottom {
+    background-color: white;
+    height: 1700px;
+}
+
+.resume hr {
+    background-color: #ccc;
+    width: 100%;
+    height: 1px;
+    border: none;
+}
+
+.resume .bottom .section .left{
+    float: left;
+    text-align: left;
+    width: 45%;
+    padding: 15px;
+}
+
+.resume .bottom .section .left h3{
+    margin-bottom: 10px;
+}
+
+.resume h4{
+    margin: 0;
+    text-transform: capitalize;
+    font-size: 18px;
+    font-weight: 400;
+    color: #919191;
+}
+
+.resume h4 span{
+    font-weight: bold;
+}
+
+.resume h5{
+    background-color: #2ecc71;
+    padding: 10px;
+    width: 50px;
+    color: white;
+}
+
+
+.testimonials {
+    bottom: 0;
+    background-color: #f2f2f1;
+    height: 415px;
+}
+
+.testimonials .container{
+    transform: translateY(50%);
+}
+
+.testimonials p{
+    font-style: italic;
+    color: #919191; 
+    padding: 20px;
+}
+
+.portfolio {
+    background-color: white;
+    height: 1300px;
+}
+
+.portfolio p {
+    margin-bottom: 60px;
+}
+
+.portfolio img {
+    height: 250px;
+    width: auto;
+    padding: 20px;
+    display: inline-block;
+}
+
+.portfolio img:hover { /* need to modify*/
+    opacity: 0.3;
+}
+
+.contact {
+    background-color: #252e30;
+    height: 850px;
+}
+
+.contact .left {
+    float: left;
+    text-align: left;
+    width: 45%;
+    padding: 20px;
+}
+
+.contact h2 {
+    color: white;
+}
+
+.contact span {
+    color: white;
+}
+
+.contact input[type=text] {
+    color: white;
+    background-color: #4b5456;
+    border: none;
+    width: 540px;
+    height: 50px;
+    margin-bottom: 20px;
+}
+
+.contact textarea{
+    background-color: #4b5456;
+    border: none;
+    display: block;
+    width: 540px;
+    height: 200px;
+    margin-bottom: 20px;
+}
+
+.contact input[type=button]{
+    margin-top: 25px;
+    padding: 20px;
+    background-color: #191f21;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    border: none;
+    text-transform: uppercase;
+    width: 180px;
+}
+
+.footer {
+    background-color: #191f21;
+    height: 180px;
+    margin-top: -23px;
+}
+
+.footer .container{
+    transform: translateY(60%);
+}
+
+.footer p{
+    text-transform: uppercase;
+    color: #373e40;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.footer .icons{
+    display: inline-block;
+}
+
+.footer img{
+    height: 35px;
+    padding: 3px;
+}
